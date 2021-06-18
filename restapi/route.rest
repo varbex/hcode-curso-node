@@ -1,0 +1,27 @@
+### GET
+GET http://localhost:3000/subscribers
+###
+### GET BY ID
+GET http://localhost:3000/subscribers/60cc263bab867d4d9cbe9d85
+###
+### POST
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "userName": "Vitor Arbex",
+    "userChanel": "httpvitorarbex"
+}
+###
+### DELETE BY ID
+DELETE http://localhost:3000/subscribers/60cc2848ab867d4d9cbe9d91
+###
+### PATCH
+PATCH http://localhost:3000/subscribers/60cc2848ab867d4d9cbe9d91
+Content-Type: application/json
+
+{
+    "userName": "Vitor Arbex22222",
+    "userChanel": "httpvitorarbex"
+}
+###

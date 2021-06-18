@@ -1,0 +1,33 @@
+{
+  "name": "hcode-curso-node",
+  "version": "1.0.0",
+  "description": "Pratica do Curso de Node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varbex/hcode-curso-node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "express",
+    "fs",
+    "path",
+    "mongodb",
+    "udp",
+    "crypto"
+  ],
+  "author": "Vitor Arbex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varbex/hcode-curso-node/issues"
+  },
+  "homepage": "https://github.com/varbex/hcode-curso-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
